@@ -1,0 +1,4 @@
+https://pypi.python.org/pypi/requests/1.2.3
+https://pypi.python.org/pypi/beautifulsoup4/4.3.2
+https://pypi.python.org/pypi/setuptools/0.6c11
+https://pypi.python.org/pypi/lxml/2.3.2

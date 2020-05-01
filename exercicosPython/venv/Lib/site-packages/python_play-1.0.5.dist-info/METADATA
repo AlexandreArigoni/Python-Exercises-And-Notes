@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: python-play
+Version: 1.0.5
+Summary: play mp3 audio files
+Home-page: https://github.com/adisakshya/python_play
+Author: Adisakshya Chauhan
+Author-email: adisakshya98@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+Requires-Dist: pygame
+
+
+# python-play
+
+python-play is a python module that allows you to play
+mp3 audio file.
+
+
+# Installation
+
+Installation requires 
+```pygame```
+
+Install the module by running 
+```
+pip install python-play
+```
+
+# Usage
+Open python by running
+```
+py
+```
+then, type
+```
+>>> from python_play.player import play_it
+pygame 1.9.4
+Hello from the pygame community, https://www.pygame.org/contribute.html
+>>> play_it('/path/to/mp3/audio/file')
+Press Ctrl+C to stop
+```
+Voila!
+
+# To-Do
+
+	1. pause, play, rewind options
+	2. playlist support
+	3. support for playing other file formats
+

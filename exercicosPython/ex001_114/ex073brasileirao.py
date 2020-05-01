@@ -1,0 +1,6 @@
+t = ('Galo', 'Chapecoense', 'Coringão', 'Gabigol', 'Bambi', 'Coxinhas Neto', 'Vascão', 'Palmeiras', 'Messi', 'Zero')
+print(t)
+print(t[0:5])
+print(t[-4:])
+print(sorted(t))
+print(t.index('Chapecoense') + 1)
