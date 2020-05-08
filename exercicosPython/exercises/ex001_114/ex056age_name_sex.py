@@ -1,13 +1,4 @@
-w20 = 0
-om = 0
-summ = 0
-no = 0
-no1 = 0
-no2 = 0
-no3 = 0
-om1 = 0
-om2 = 0
-om3 = 0
+w20 = om = summ = no = no1 = no2 = no3 = om1 = om2 = om3 = 0
 for c in range(1, 5):
     a = int(input('Enter your age: '))
     n = str(input('Enter your name: '))

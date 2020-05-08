@@ -18,10 +18,10 @@ while True:
     cont = str(input('Want to continue [S/N]? ')).upper()
     if cont in 'N':
         break
-print('code  name         goals       total')
+print('code  name\t\t\t goals\t\ttotal')
 print('-='*30)
 for c in every:
-    print(f'{c["ga"]} {c["name"]:<12}{c["goals"]}{c["s"]:<5}{c["g"]:<5}')
+    print(f'{c["ga"]} {c["name"]}\t\t\t{c["goals"]}\t{c["g"]}')
 while True:
     cont = int(input('Enter the code number of the player you want to access [999 to exit]: '))
     if cont == 999:

@@ -1,19 +1,18 @@
-h = s = co = c = 0
-lo = 9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
-'''when co = 1 -> equalize the variables'''
-while c != 33:
-    c = int(input())
+h = s = co = c = lo = 0
+while True:
+    c = int(input('Enter an int number: '))
+    cont = str(input('Want to continue? [S/N]'))
     co += 1
-    if c > h and c != 33:
+    if c > h:
         h = c
-    if c < lo:
+    if co == 1 or c < lo:
         lo = c
     s += c
-if co != 1:
-    print((s - 33)/(co-1))
-    print(co-1)
-    print(lo)
-else:
-    print('Bye')
+    if cont in 'Nn':
+        break
+print(f'\nAverage: {s/co}')
+print(f'You entered {co} numbers')
+print(f'The lowest number is: {lo} and the highest: {h}')
+
 
 

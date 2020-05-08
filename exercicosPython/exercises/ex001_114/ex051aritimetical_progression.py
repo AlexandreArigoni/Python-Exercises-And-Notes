@@ -4,4 +4,4 @@ x = r
 print(t, ', ', end='')
 for c in range(1, 10):
     t += x
-    print(t, ', ', end='')
+    print(t, end=', ' if c < 9 else '.')

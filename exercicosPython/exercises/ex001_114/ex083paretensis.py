@@ -1,10 +1,8 @@
 n = list()
-n.append(input())
+n.append(input('Enter an expression: '))
 le = n[0].count('(')
 ri = n[0].count(')')
-if le % 2 == 0 and ri % 2 == 0:
-    print('Correct')
+if le == ri:
+    print('The expression is correct!')
 else:
-    print('Wrong')
-print(n)
-
+    print('The expression is wrong!')
