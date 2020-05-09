@@ -1,9 +1,9 @@
+"""Escreva um programa que leia a velocidade de um carro. Se ele ultrapassar 80Km/h, mostre uma mensagem dizendo que ele
+ foi multado. A multa vai custar R$7,00 por cada Km acima do limite."""
 from random import randint
-from termcolor import colored
 v = randint(60, 100)
-print(colored('The velocity of your car is {}'.format(v), 'blue'))
+print('The velocity of your car is {}'.format(v))
 if v > 80:
-    print(colored('You received a mulct of {} '.format((v-80)*7), 'red'))
+    print('You received a mulct of {} '.format((v-80)*7))
 else:
-    print(colored('You dont have received a mulct', 'green'))
-
+    print('You dont have received a mulct')

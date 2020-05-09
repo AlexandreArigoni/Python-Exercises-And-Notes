@@ -1,3 +1,4 @@
+"""Faça um programa que leia um número Inteiro qualquer e mostre na tela a sua tabuada."""
 num = int(input('Choose a number: '))
 print('-'*10)
 print(' {:>5}\n {:>5}\n {:>5}\n {:>5}\n {:>5}\n {:>5}\n {:>5}\n {:>5}\n {:>5}\n {:>5}\n'
